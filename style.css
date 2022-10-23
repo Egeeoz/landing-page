@@ -126,3 +126,30 @@ button{
     align-self: flex-end;
 }
 
+.sign-up-container{
+    display: flex;
+    justify-content: center;
+}
+
+.blue-background{
+    margin: 50px;
+    width: 50%;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 70px;
+}
+
+.blue-background h4{
+    margin: 0;
+}
+
+.blue-background p{
+    margin: 0;
+}
+
+.blue-background button{
+    border: solid #F9FAF8 2px;
+}
