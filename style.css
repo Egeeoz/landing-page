@@ -75,8 +75,13 @@ button{
     border-radius: 5px;
 }
 
-.main-information h1{
+
+.main-information h1{   
     text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bold;
+    padding:15px;
 }
 
 .box-container{
@@ -100,5 +105,24 @@ button{
 
 .texts p {
     width: 150px;
+    margin-bottom: 30px;
+}
+
+.container-quote{
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.container-quote p {
+    font-size: 26px;
+    font-style: italic;
+    color: #1F2937;
+    width: 600px;
+}
+
+.container-quote h4{
+    align-self: flex-end;
 }
 
